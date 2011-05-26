@@ -2,6 +2,8 @@ api = 2
 core = 6.x
 
 ; Contrib modules
+projects[] = acl
+projects[acl][subdir] = contrib
 projects[] = admin
 projects[admin][subdir] = contrib
 projects[] = admin_menu
@@ -14,6 +16,8 @@ projects[] = cck
 projects[cck][subdir] = contrib
 projects[] = context
 projects[context][subdir] = contrib
+projects[] = content_access
+projects[content_access][subdir] = contrib
 projects[] = ctools
 projects[ctools][subdir] = contrib
 projects[] = custom_formatters
