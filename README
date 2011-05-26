@@ -11,5 +11,4 @@ Add this in your .make file to have those modules automatically installed in you
     projects[modules_dependency][type] = module
     projects[modules_dependency][download][type] = git
     projects[modules_dependency][download][url] = git://github.com/Polzme/drupal6features.git
-    projects[modules_dependency][subdir] = modules
-    projects[modules_dependency][destination] = modules
+    projects[modules_dependency][subdir] = "contrib"
