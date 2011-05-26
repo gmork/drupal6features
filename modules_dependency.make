@@ -1,3 +1,5 @@
+api = 2
+
 ; Contrib modules
 projects[] = admin
 projects[] = admin_menu
