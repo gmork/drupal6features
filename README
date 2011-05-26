@@ -1,0 +1,15 @@
+This Drupal 6 module helps you to download the most useful modules for Drupal 6 and enable them in a row.
+
+Add this in your .make file to have those modules automatically installed in your distribution:
+
+Example of a working drupal6 makefile:
+
+    ; A basic Drupal site
+    core = 6.x
+    projects[] = drupal
+
+    projects[modules_dependency][type] = module
+    projects[modules_dependency][download][type] = git
+    projects[modules_dependency][download][url] = git://github.com/Polzme/drupal6features.git
+    projects[modules_dependency][subdir] = modules
+    projects[modules_dependency][destination] = modules
