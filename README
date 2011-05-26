@@ -2,7 +2,7 @@ This Drupal 6 module helps you to download the most useful modules for Drupal 6 
 
 Add this in your .make file to have those modules automatically installed in your distribution:
 
-Example of a working drupal6 makefile:
+*Example of a working drupal6 makefile:*
 
     ; A basic Drupal site
     core = 6.x
