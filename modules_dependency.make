@@ -28,6 +28,7 @@ projects[feeds_querypath_parser][subdir] = contrib
 projects[filefield][subdir] = contrib
 projects[fivestar][subdir] = contrib
 projects[getid3][subdir] = contrib
+projects[globalredirect][subdir] = contrib
 projects[google_analytics][subdir] = contrib
 projects[i18n][subdir] = contrib
 projects[imageapi][subdir] = contrib
